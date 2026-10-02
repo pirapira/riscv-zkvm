@@ -8,7 +8,7 @@
   This is deliberately self-contained rather than a dependency on GaloisInc's
   ELFSage (which upstream sail-riscv's Lean emulator uses): ELFSage's pinned
   revision targets Lean v4.28.0-rc1 and its `main` branch has not moved since
-  2024, whereas this package is on v4.33.0 and keeps `lean-sail` as its only
+  2024, whereas this package is on v4.33.1 and keeps `lean-sail` as its only
   dependency. Only the ELF surface a static RV64 image actually needs is parsed;
   anything unexpected is an error rather than a silent default.
 -/

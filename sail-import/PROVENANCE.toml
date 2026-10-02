@@ -14,7 +14,7 @@ sail_compiler_rev = "3b7af38d66466ecadad563158b07ce2f82fe05da"
 # (79b4d08) plus the two-line Lean >=4.32 dependent-match elaborator fix.
 lean_sail_repo = "https://github.com/dhsorens/lean-sail"
 lean_sail_rev = "8d57a8b537f1a4e7cdf558c3d87a79f453bf3817"
-lean_toolchain = "leanprover/lean4:v4.33.0"
+lean_toolchain = "leanprover/lean4:v4.33.1"
 
 [extraction]
 root_module = "RiscvZkvm.Sail"
